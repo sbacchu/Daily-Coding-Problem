@@ -8,8 +8,9 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?
 
-Asked by: Google
+Asked by: Google<br>
+Difficulty Level: Easy
 
 ###### Solution Steps
--[x] Get the solution
+-[x] Get the solution<br>
 -[x] Do it in one pass

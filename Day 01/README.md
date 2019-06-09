@@ -12,5 +12,5 @@ Asked by: Google<br>
 Difficulty Level: Easy
 
 ###### Solution Steps
--[x] Get the solution<br>
--[x] Do it in one pass
+- [x] Get the solution<br>
+- [x] Do it in one pass

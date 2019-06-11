@@ -11,7 +11,7 @@ Asked by: Uber<br>
 Difficulty Level: Hard
 
 ###### Solution Steps
-- [ ] Create var product<br>
-- [ ] Loop through the array multiplying each element into product<br>
-- [ ] Loop through the array another time replacing each element with the division of the product and the element<br>
+- [x] Create var product<br>
+- [x] Loop through the array multiplying each element into product<br>
+- [x] Loop through the array another time replacing each element with the division of the product and the element<br>
 - [ ] Do it in one pass

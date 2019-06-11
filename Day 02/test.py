@@ -1,6 +1,7 @@
 import unittest
 import day_2 as Sol
 
+
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         list = [1, 2, 3, 4, 5]

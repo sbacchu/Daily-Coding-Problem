@@ -11,6 +11,6 @@ Bonus: Can you do this in one pass?
 Asked by: Google<br>
 Difficulty Level: Easy
 
-###### Solution Steps
+##### Solution Steps
 - [x] Get the solution<br>
 - [x] Do it in one pass

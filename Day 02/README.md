@@ -10,7 +10,7 @@ Bonus: what if you can't use division?
 Asked by: Uber<br>
 Difficulty Level: Hard
 
-###### Solution Steps
+##### Solution Steps
 - [x] Create var product<br>
 - [x] Loop through the array multiplying each element into product<br>
 - [x] Loop through the array another time replacing each element with the division of the product and the element<br>

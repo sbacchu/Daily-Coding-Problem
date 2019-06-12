@@ -21,7 +21,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 Asked by: Google<br>
 Difficulty Level: Medium
 
-###### Solution Steps
+##### Solution Steps
 - [x] Use a traversal method to go through a tree and append the string to serialize it, use `-1` for leaf nodes<br>
 - [x] To deserialize, split the string into list<br>
 - [x] Use the same traversal order rebuild the tree<br>

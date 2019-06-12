@@ -22,7 +22,7 @@ Asked by: Google<br>
 Difficulty Level: Medium
 
 ###### Solution Steps
-- [ ] Use a traversal method to go through a tree and append the string to serialize it, use `-1` for leaf nodes<br>
-- [ ] To deserialize, split the string into list<br>
-- [ ] Use the same traversal order rebuild the tree<br>
-- [ ] Test solution
+- [x] Use a traversal method to go through a tree and append the string to serialize it, use `-1` for leaf nodes<br>
+- [x] To deserialize, split the string into list<br>
+- [x] Use the same traversal order rebuild the tree<br>
+- [x] Test solution

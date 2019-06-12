@@ -34,15 +34,30 @@ def preorder_traverse(node: Node):
     return preorder_traversal
 
 
+def build_tree(tree_list: list):
+    if len(tree_list) is not 0:
+        val = tree_list.pop(0)
+        if val is not -1:
+            return Node(val, build_tree(tree_list), build_tree(tree_list))
+    else:
+        return Node(None)
+
+
 def serialize(node: Node):
     preorder_traversal = preorder_traverse(node)
     return " ".join(str(x) for x in preorder_traversal)
 
 
+def deserialize(tree_str: str):
+    tree_list = tree_str.split(" ")
+    node = build_tree(tree_list)
+    return node
+
+
 def main():
     node = Node('root', Node('left', Node('left.left')), Node('right'))
 
-    print(serialize(node))
+    print(deserialize(serialize(node)).left.left.val)
 
 
 if __name__ == '__main__':

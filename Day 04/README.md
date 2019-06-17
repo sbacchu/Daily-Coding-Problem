@@ -11,7 +11,13 @@ Asked by: Stripe<br>
 Difficulty Level: Hard
 
 ##### Solution Steps
+> Uses `O(n)` Space
 - [ ] Create another array that acts as a hash<br>
 - [ ] Place each element in the new array based on its value (we can disregard negative numbers) <br>
 - [ ] loop through the second array to check if there is an element at the location<br>
 - [ ] if it is empty, return the current value of the index
+
+>Using `O(1)` space
+- [ ] First loop throught the array to remove all the negative numbers
+- [ ] For hashing in place, By looping through the array another time, we can negate the value of the index element
+- [ ] In the next loop if the value at the index in not negative we can conclude that number was not in the originar array and we can return the value
